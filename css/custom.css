@@ -123,7 +123,7 @@ a:hover{
   max-width:900px;
 }
 .post-template .site-head{
-  background-image:url("/images/lj_hexes.svg") !important;
+  background-image:url("/vikings/images/lj_hexes.svg") !important;
   background-size: auto 100% !important;
   -webkit-animation: slide 3600s linear infinite !important;
   animation: slide 3600s linear infinite !important;
