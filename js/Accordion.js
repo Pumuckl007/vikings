@@ -11,7 +11,7 @@ for(var i = 0; i<7; i++){
   var donationObject = robotics.donationObjects[i];
   donationObject.addEventListener('mouseover', function(event){
     var element = robotics.findObject(event.target, "donation-amount");
-    element.style.width = "38.3%";
+    element.style.width = "38.2%";
     var index = robotics.donationObjects.indexOf(element);
     var otherElements = robotics.donationObjects.slice(0);
     otherElements.splice(index,1);
