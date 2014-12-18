@@ -341,7 +341,9 @@ body{
   background-color:red;
   z-index:-3;
 }
-
+.robot-selector-parent br{
+  display:none;
+}
 .robot-viewer{
   height:600px;
   width:100%;
@@ -352,4 +354,14 @@ body{
   color:#FF2400;
   font-size:3.2em;
   line-height:200%;
+}
+.robot-modle-selector-lable{
+  float:right;
+  margin-right:4px;
+}
+.robot-modle-selector{
+  float:right;
+}
+.robot-selector-parent{
+  height:40px;
 }

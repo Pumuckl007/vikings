@@ -1,7 +1,11 @@
 var robotics = {};
 robotics.currentModle = "2014";
-robotics.modleChange = true;
+// robotics.modleChange = true;
 robotics.OBJLoader = new THREE.OBJLoader();
+robotics.onMouseOver = function(event){robotics.onMouseOver(event)};
+robotics.onMouseOut = function(event){robotics.onMouseOut(event)};
+robotics.onMouseDown = function(event){robotics.onMouseDown(event)};
+robotics.onMouseUp = function(event){robotics.onMouseUp(event)};
 robotics.render = new function(){
   var scene;
   var camera;
@@ -9,6 +13,7 @@ robotics.render = new function(){
   var controls;
   var render;
   var element = document.getElementById("robot-viewer");
+  var selector = document.getElementById("robot-modle-sceletor");
   var update;
 
   var noWebGL = function(){
@@ -47,17 +52,22 @@ robotics.render = new function(){
     scene.remove(modle);
     modle.material = new THREE.MeshBasicMaterial({map:map});
     scene.add(modle);
-    console.log(modle);
   }
 
   controls = new THREE.OrbitControls( camera );
   robotics.controls = controls;
+  controls.enabled = false;
+  element.addEventListener('mouseover', robotics.onMouseOver);
+  element.addEventListener('mouseout', robotics.onMouseOut);
+  element.addEventListener('mousedown', robotics.onMouseDown);
+  element.addEventListener('mouseup', robotics.onMouseUp);
 
   update = function(){
     window.requestAnimationFrame(update);
     if(camera)
     renderer.render(scene, camera);
-    if(robotics.modleChange){
+    if(robotics.modleChange || selector.value != robotics.currentModle){
+      robotics.currentModle = selector.value;
       robotics.onModleChange();
       robotics.modleChange = false;
     }
@@ -65,6 +75,18 @@ robotics.render = new function(){
   window.requestAnimationFrame(update);
 
   return this;
+}
+robotics.onMouseOver = function(event){
+  robotics.controls.enabled = true;
+}
+robotics.onMouseOut = function(event){
+  robotics.controls.enabled = false;
+}
+robotics.onMouseDown = function(event){
+  event.target.setCapture();
+}
+robotics.onMouseUp = function(event){
+  document.releaseCapture();
 }
 robotics.onModleChange = function (){
   var newModle = robotics.currentModle;
