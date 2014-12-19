@@ -1,2 +1,2 @@
-Max Apodaca,9th gradecomma On the sailing team,
-Gabby Person,12th gradecomma President,leader
+Max Apodaca,Is in 9th grade and is on the sailing team. Currently is the Web Master and a rookie.,
+Gabby Person,Is in 12th grade and is the president of the team. She coordinates most of the team efforts with help of the mentors.,leader
