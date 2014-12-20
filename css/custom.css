@@ -92,6 +92,27 @@
 .abody .donate-button:hover{
   background-color:#FF0101;
 }
+.donation-button a{
+  font-size: 2em;
+  font-weight: 200;
+  height:50px;
+  border-width: 3px;
+  border-radius: 0px;
+  background-color:#FF2400;
+  color: #030303;
+  border-color:#030303;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  max-width:250px;
+  padding: 4px;
+  border:solid 2px;
+  text-decoration:none;
+  transition: border-radius 0.5s;
+}
+.donation-button a:hover{
+  border-radius:15px;
+}
 .abody br{
   display:none;
 }
@@ -217,13 +238,20 @@ body{
 }
 .donation-amount{
   border:solid 1px;
-  border-radius:4px;
+  border-right:none;
   height:300px;
   width:14%;
   float:left;
   text-align:center;
   transition:width 0.5s;
   overflow:hidden;
+}
+.donation-amount#donation-one{
+  border-radius: 4px 0px 0px 4px;
+}
+.donation-amount#donation-seven{
+  border:solid 1px;
+  border-radius: 0px 4px 4px 0px;
 }
 .past-sponsors{
   width:100%;
@@ -377,4 +405,7 @@ body{
 .fine-print{
   text-align:center;
   font-size:0.7em;
+}
+#left-align{
+  text-align:left;
 }
