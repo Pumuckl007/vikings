@@ -177,35 +177,37 @@ body{
   height: 30px;
   margin-bottom:3rem;
 }
-.left-aling-header-button{
+.left-nav-button{
   float:left;
   max-width:120px;
   height:30px;
   font-size: 1em;
   font-weight: 200;
-  color: #030303;
-  background-color:rgba(0,0,0,0);
+  color: #222;
   border:none;
   border-color:#030303;
   border-right:solid;
   border-width:1px;
   padding: 0;
   width:25%;
+  text-align:center;
+  text-decoration:none;
 }
-.left-aling-header-button#last{
+.left-nav-button#last{
   border:none;
 }
-.right-aling-header-button{
+.right-nav-button{
   float:right;
   max-width:120px;
   height:30px;
   font-size: 1em;
   font-weight: 200;
-  color: #030303;
-  background-color:rgba(0,0,0,0);
+  color: #222;
   border:none;
   padding: 0;
   width:25%;
+  text-align:center;
+  text-decoration:none;
 }
 .donation-amounts{
   width:100%;
