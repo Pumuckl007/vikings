@@ -27,39 +27,36 @@
   border-radius: 4px;
   border: solid;
 }
+.row{
+  text-align:center;
+  border-spacing:10px;
+  display:table;
+}
+.row .centerd-boxed-text{
+  width:30%;
+  vertical-align:top;
+  display:table-cell;
+}
 .left{
   float:left;
-  background-color:#FFF
-}
-.right {
-  float:right;
-  background-color:#FFF
-}
-.abody .left {
+  background-color:#FFF;
   width:48%;
   border: solid;
   border-width: 2px;
   border-radius: 4px;
   margin-bottom:10px;
-  height:200px;
 }
-.abody#donate .left{
-  height:300px;
-}
-.abody .right {
+.right {
+  float:right;
+  background-color:#FFF;
   width:48%;
   border: solid;
   border-width: 2px;
   border-radius: 4px;
   text-align: center;
   margin-bottom:10px;
-  height:200px;
 }
-.abody#donate .right{
-  height:300px;
-}
-.abody{
-  height:560px;
+.post-content{
   font-size: 0.8em;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -69,22 +66,6 @@
   height:inherit;
 }
 
-.abody .donate-button{
-  font-size: 2em;
-  font-weight: 200;
-  height:50px;
-  border-width: 3px;
-  border-radius: 4px;
-  background-color:#FF2400;
-  color: #030303;
-  border-color:#030303;
-  margin-left:auto;
-  margin-right:auto;
-  width:100%;
-  max-width:250px;
-  padding: 0;
-
-}
 .donate-button#online{
   font-size:1em;
   font-weight:100;
@@ -113,26 +94,14 @@
 .donation-button a:hover{
   border-radius:15px;
 }
-.abody br{
-  display:none;
-}
-/*.abody br#display{
-  all:inherit;
-}*/
 .donation-amounts br{
   display:inherit;
 }
-.left br{
+/*.left br{
   display:none;
-}
+}*/
 .vertical-center br{
   display:inherit;
-}
-.large-items br{
-  display:none;
-}
-.large-items br#display{
-  all:inherit;
 }
 .vertical-center{
   position: relative;
@@ -140,12 +109,9 @@
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
-.abody .vertical-center{
+.margins-twenty{
   margin-left:20px;
   margin-right:20px;
-}
-.abody .bottom{
-  height:360px;
 }
 a{
   color:#FF2400;
@@ -154,12 +120,13 @@ a:hover{
   color:#030303
 }
 .post{
-  max-width:900px;
+  max-width:3200px;
 }
 .post-template .site-head{
   background-image:url("/vikings/images/lj_hexes.svg") !important;
   background-size: auto 100% !important;
   -webkit-animation: slide 3600s linear infinite !important;
+  -mos-animation: slide 3600s linear infinite !important;
   animation: slide 3600s linear infinite !important;
 }
 
@@ -202,13 +169,13 @@ body{
   margin-bottom:0;
 }
 .button-bar{
+  text-align:left;
   margin-top:0;
   width: 100%;
   height: 30px;
   margin-bottom:3rem;
 }
 .left-nav-button{
-  float:left;
   max-width:120px;
   height:30px;
   font-size: 1em;
@@ -219,9 +186,10 @@ body{
   border-right:solid;
   border-width:1px;
   padding: 0;
-  width:25%;
+  width:24%;
   text-align:center;
   text-decoration:none;
+  float:left;
 }
 .left-nav-button#last{
   border:none;
@@ -235,7 +203,7 @@ body{
   color: #222;
   border:none;
   padding: 0;
-  width:25%;
+  width:24%;
   text-align:center;
   text-decoration:none;
 }
@@ -266,14 +234,15 @@ body{
 .past-sponsors{
   width:100%;
   text-align:center;
-  height:800px;
+  overflow:auto;
 }
 .sponsor-row{
   width:100%;
+  overflow:hidden;
 }
 .sponsor{
   width:40%;
-  height:150px;
+  height:160px;
 }
 .sponsor#left{
   float:left;
@@ -301,10 +270,12 @@ body{
 }
 .person-row{
   width:100%;
-  height:240px;
+  display:table;
+  border-spacing:10px;
 }
 .picture-frame{
   width:20%;
+  display:table-cell;
   float:left;
   border: solid 2px;
   margin-left:2.2%;
@@ -328,7 +299,6 @@ body{
   font-weight:600;
   padding-left: 2%;
   padding-right:2%;
-  height:100px;
   line-height:150%;
 }
 .picture-title, .picture-title-leader{
@@ -345,7 +315,6 @@ body{
   border-radius: 0 0 10px 10px;
   font-weight:600;
   line-height:120%;
-  height:30px;
 }
 .picture-title-leader{
   background-color:rgba(255,36,0,0.7)
@@ -418,4 +387,8 @@ body{
 }
 #left-align{
   text-align:left;
+}
+.row-of-left-and-right{
+  widht:100%;
+  overflow:auto;
 }

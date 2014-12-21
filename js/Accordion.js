@@ -16,7 +16,7 @@ for(var i = 0; i<7; i++){
     var otherElements = robotics.donationObjects.slice(0);
     otherElements.splice(index,1);
     for(var k = 0; k<otherElements.length; k++){
-      otherElements[k].style.width="10%";
+      otherElements[k].style.width="9.9%";
     }
   });
   donationObject.addEventListener('mouseout', function(event){
