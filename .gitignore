@@ -5,5 +5,3 @@ debug.log
 node_modules/
 public/
 .deploy/
-/site/source/team/people-max.txt
-
