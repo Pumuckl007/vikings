@@ -116,8 +116,17 @@
 .abody br{
   display:none;
 }
-.abody br#display{
+/*.abody br#display{
   all:inherit;
+}*/
+.donation-amounts br{
+  display:inherit;
+}
+.left br{
+  display:none;
+}
+.vertical-center br{
+  display:inherit;
 }
 .large-items br{
   display:none;
@@ -232,9 +241,9 @@ body{
 }
 .donation-amounts{
   width:100%;
-  background-color:blue;
   margin-left:auto;
   margin-right:auto;
+  color:#222
 }
 .donation-amount{
   border:solid 1px;
@@ -245,6 +254,7 @@ body{
   text-align:center;
   transition:width 0.5s;
   overflow:hidden;
+  color:#222;
 }
 .donation-amount#donation-one{
   border-radius: 4px 0px 0px 4px;

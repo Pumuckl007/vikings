@@ -24,9 +24,6 @@ for(var i = 0; i<7; i++){
       robotics.donationObjects[k].style.width="14%";
     }
   });
-  donationObject.onclick = function(){
-    window.location.href="https://www.foundationofljhs.com/robotics-team.html";
-  }
 }
 robotics.findObject = function(currentElement, className){
   if(currentElement.className != className){
