@@ -20,4 +20,4 @@ David Romero,Bio,
 Sage Tellew,Bio,
 Caris Wei,Bio,
 Louise Xu,Co Vice President,leader
-Juntai Zheng,Co Secretary,leader
+Juntai Zheng,Treasurer,leader
