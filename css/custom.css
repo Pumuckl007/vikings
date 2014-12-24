@@ -289,7 +289,7 @@ body{
   text-align:center;
 }
 .picture-frame img{
-  height:80px;
+  height:250px;
 }
 .frame-bio{
   width:96%;
@@ -314,7 +314,7 @@ body{
   border-bottom: solid 2px;
   border-radius: 0 0 10px 10px;
   font-weight:600;
-  line-height:120%;
+  line-height:130%;
 }
 .picture-title-leader{
   background-color:rgba(255,36,0,0.7)

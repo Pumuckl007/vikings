@@ -1,17 +1,16 @@
 var robotics = {};
 robotics.pictures = document.getElementById("pictures");
-robotics.onLoadPeople = function(){
+robotics.onLoadPeople = function(text){
   while(robotics.pictures.children.length != 0){
     robotics.pictures.removeChild(robotics.pictures.children[0]);
   }
-  robotics.createFrames(robotics.getWidth());
+  robotics.createFrames(robotics.getWidth(), text);
 };
 window.onresize = robotics.onLoadPeople;
-robotics.createFrames = function(num){
+robotics.createFrames = function(num, people){
   if(num < 1){
     num = 1;
   }
-  var people = document.getElementById("people").contentWindow.document.body.childNodes[0].innerHTML;
   var persons = people.split("\n");
   var row;
   for(var i = 0; i< persons.length; i++){
@@ -55,3 +54,12 @@ robotics.createPictureFrame = function(Name, Bio, leader){
   text.innerHTML=Bio;
   return frame;
 };
+window.addEventListener("load", function(event){
+  var request = new XMLHttpRequest();
+  request.onload = function(e){
+    console.log(this.responseText);
+    robotics.onLoadPeople(this.responseText);
+  };
+  request.open("get", "/vikings/team/people.txt", true);
+  request.send();
+})
