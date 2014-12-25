@@ -302,7 +302,7 @@ body{
   line-height:150%;
 }
 .picture-title, .picture-title-leader{
-  margin-left:auto;
+  margin-left:10%;
   margin-right:auto;
   margin-bottom:3px;
   width:70%;
@@ -315,6 +315,7 @@ body{
   border-radius: 0 0 10px 10px;
   font-weight:600;
   line-height:130%;
+  float:left;
 }
 .picture-title-leader{
   background-color:rgba(255,36,0,0.7)
@@ -391,4 +392,20 @@ body{
 .row-of-left-and-right{
   widht:100%;
   overflow:auto;
+}
+.picture-grade{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:3px;
+  width:12%;
+  font-size:0.8em;
+  padding-left:2px;
+  padding-right:2px;
+  border-left:solid 2px;
+  border-bottom: solid 2px;
+  border-radius: 0 0 0 10px;
+  font-weight:600;
+  line-height:130%;
+  float:right;
+  text-align:center;
 }
