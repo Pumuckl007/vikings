@@ -290,6 +290,7 @@ body{
 }
 .picture-frame img{
   height:250px;
+  clear:left;
 }
 .frame-bio{
   width:96%;
@@ -405,11 +406,11 @@ body{
   border-bottom: solid 2px;
   border-radius: 0 0 0 10px;
   font-weight:600;
-  line-height:130%;
+  line-height:100%;
   float:right;
   text-align:center;
 }
 .picture-grade-th{
-  font-size:0.7em;
-  font-weight:400;
+  vertical-align:super;
+  font-size:75%;
 }

@@ -41,6 +41,7 @@ robotics.createPictureFrame = function(Name, Bio, leader, grade){
   var frame = document.createElement("div");
   frame.className="picture-frame";
   var titleRow = frame.appendChild(document.createElement('div'));
+  titleRow.className = "picture-title-row";
   var title = titleRow.appendChild(document.createElement("div"));
   if(leader)
     title.className="picture-title-leader";
@@ -54,7 +55,7 @@ robotics.createPictureFrame = function(Name, Bio, leader, grade){
   gradeHolder.className="picture-grade";
   var gradeText = gradeHolder.appendChild(document.createElement('div'));
   gradeText.innerHTML = grade.replace("th", "");
-  var gradeTh = gradeText.appendChild(document.createElement('sup'));
+  var gradeTh = gradeText.appendChild(document.createElement('span'));
   gradeTh.className="picture-grade-th";
   gradeTh.innerHTML = "th";
   var picture = frame.appendChild(document.createElement("div"));
