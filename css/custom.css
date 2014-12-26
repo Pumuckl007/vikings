@@ -409,3 +409,7 @@ body{
   float:right;
   text-align:center;
 }
+.picture-grade-th{
+  font-size:0.7em;
+  font-weight:400;
+}

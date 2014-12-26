@@ -1,12 +1,12 @@
+Amir,Dalichaouch,Co Vice President,leader,12th,4
 Gabby,Person,Is in 12th grade and is the president of the team. She coordinates most of the team efforts with help of the mentors.,leader,12th,4
 Louise,Xu,Co Vice President,leader,12th,4
 Juntai,Zheng,Treasurer,leader,12th,4
-Amir,Dalichaouch,Co Vice President,leader,11th,3
 Kellan,Colburn,Bio,,12th,4
 Thomas,Garcia,12th gradecomma On the sailing team,,12th,4
 Nguyen,Hoang,Bio,,12th,4
 Sam,Moses, Bio,,12th,4
-Caris,Wei,Bio,,11th,3
+Caris,Wei,Bio,,12th,4
 Katie,Bonnett,Bio,,10th,2
 Lauren,Hibbs,Bio,,10th,2
 Daryl,Lyons,Bio,,10th,2
