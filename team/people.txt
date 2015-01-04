@@ -4,11 +4,11 @@ Louise,Xu,Co Vice President,leader,12th,4
 Juntai,Zheng,Treasurer,leader,12th,4
 Kellan,Colburn,Bio,,12th,4
 Thomas,Garcia,12th gradecomma On the sailing team,,12th,4
-Nguyen,Hoang,Bio,,12th,4
 Sam,Moses, Bio,,12th,4
 Caris,Wei,Bio,,12th,4
+Lauren,Hibbs,Bio,,11th,3
+Nguyen,Hoang,Bio,,11th,3
 Katie,Bonnett,Bio,,10th,2
-Lauren,Hibbs,Bio,,10th,2
 Daryl,Lyons,Bio,,10th,2
 David,Romero,Bio,,10th,2
 Joshua,Alexander,Bio,,9th,1
