@@ -122,12 +122,16 @@ a:hover{
 .post{
   max-width:3200px;
 }
-.post-template .site-head{
+.post-template .site-head,
+.home-template .site-head{
   background-image:url("/vikings/images/lj_hexes.svg") !important;
   background-size: auto 100% !important;
   -webkit-animation: slide 3600s linear infinite !important;
   -mos-animation: slide 3600s linear infinite !important;
   animation: slide 3600s linear infinite !important;
+}
+.home-template .site-head{
+  background-repeat: repeat-x;
 }
 
 @-webkit-keyframes slide {
@@ -413,4 +417,15 @@ body{
 .picture-grade-th{
   vertical-align:super;
   font-size:75%;
+}
+
+article.post .author {
+  text-align:right;
+  font-size:0.9em;
+  line-height:0.9em;
+}
+
+article.post .date {
+  text-align:right;
+  font-size:0.7em;
 }
