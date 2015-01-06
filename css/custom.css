@@ -94,6 +94,12 @@
 .donation-button a:hover{
   border-radius:15px;
 }
+
+@media screen and (max-width:920px) {  .donation-button a {font-size:1.5em}}
+@media screen and (max-width:700px) {  .donation-button a {font-size:1.3em}}
+@media screen and (max-width:600px) {  .donation-button a {font-size:1em}}
+@media screen and (max-width:400px) {  .donation-button a {font-size:0.9em}}
+
 .donation-amounts br{
   display:inherit;
 }
@@ -190,11 +196,12 @@ body{
   border-right:solid;
   border-width:1px;
   padding: 0;
-  width:24%;
+  width:20%;
   text-align:center;
   text-decoration:none;
   float:left;
 }
+
 .left-nav-button#last{
   border:none;
 }
@@ -207,10 +214,17 @@ body{
   color: #222;
   border:none;
   padding: 0;
-  width:24%;
+  width:19%;
   text-align:center;
   text-decoration:none;
 }
+
+@media screen and (max-width:500px) {  .left-nav-button, .right-nav-button {font-size: 0.9em;}}
+@media screen and (max-width:430px) {  .left-nav-button, .right-nav-button {font-size: 0.8em;}}
+@media screen and (max-width:380px) {  .left-nav-button, .right-nav-button {font-size: 0.7em;}}
+@media screen and (max-width:345px) {  .left-nav-button, .right-nav-button {font-size: 0.6em;}}
+@media screen and (max-width:315px) {  .left-nav-button, .right-nav-button {width:19%; font-size: 0.55em}}
+
 .donation-amounts{
   width:100%;
   margin-left:auto;
@@ -221,7 +235,7 @@ body{
   border:solid 1px;
   border-right:none;
   height:300px;
-  width:14%;
+  width:13.9%;
   float:left;
   text-align:center;
   transition:width 0.5s;
@@ -235,6 +249,10 @@ body{
   border:solid 1px;
   border-radius: 0px 4px 4px 0px;
 }
+
+@media screen and (max-width:450px) {  .donation-amount {font-size:0.8em}}
+@media screen and (max-width:400px) {  .donation-amount {font-size:0.75em}}
+
 .past-sponsors{
   width:100%;
   text-align:center;
@@ -419,7 +437,7 @@ body{
   font-size:75%;
 }
 
-article.post .author {
+article.post .post-author {
   text-align:right;
   font-size:0.9em;
   line-height:0.9em;
@@ -429,3 +447,30 @@ article.post .date {
   text-align:right;
   font-size:0.7em;
 }
+
+article.post .updated {
+  text-align:right;
+  font-size:0.65em;
+  color:#888;
+}
+
+.calendar-wraper{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+  height:600px;
+  padding-bottom:30px;
+}
+
+.calendar{
+  width:800px;
+  height:600px;
+}
+
+@media screen and (min-width:1400px) {  .calendar, .calendar-wraper {width:1200px}}
+@media screen and (min-width:1200px) {  .calendar, .calendar-wraper {width:1000px}}
+@media screen and (max-width:1000px) {  .calendar, .calendar-wraper {width:600px}}
+@media screen and (max-width:750px) {  .calendar, .calendar-wraper {width:450px}}
+@media screen and (max-width:600px) {  .calendar, .calendar-wraper {width:300px; height:400px}}
+@media screen and (max-width:500px) {  .calendar, .calendar-wraper {width:200px; height: 300px}}
