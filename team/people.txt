@@ -3,7 +3,7 @@ Gabby,Person,President of the team this yearcomma she loves all aspects of creat
 Louise,Xu,An aspiring engineer who wants to expand her knowledge of science.,leader,12th,4
 Juntai,Zheng,Treasurer of the team. Handles the moneycomma but is aware of the mo' problems.,leader,12th,4
 Kellan,Colburn,Kellan is an aspiring electrical engineer who is looking to gain some experience working in robotics.,,12th,4
-Thomas,Garcia,President of the sailing teamcomma who knows where his true priorities lie.,,12th,4
+Thomas,Garcia,A senior member of the teamcomma he loves sharing his experience with the new members.,,12th,4
 Sam,Moses, Bio,,12th,4
 Caris,Wei,Caris is in the middle of his second year on the robotics team and is planing to contribute as much as he can to the Vikings.,,12th,4
 Lauren,Hibbs,Bio,,11th,3
