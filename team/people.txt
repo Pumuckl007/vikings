@@ -1,24 +1,26 @@
-Amir,Dalichaouch,Co Vice President,leader,12th,4
-Gabby,Person,Is in 12th grade and is the president of the team. She coordinates most of the team efforts with help of the mentors.,leader,12th,4
-Louise,Xu,Co Vice President,leader,12th,4
-Juntai,Zheng,Treasurer,leader,12th,4
-Kellan,Colburn,Bio,,12th,4
-Thomas,Garcia,12th gradecomma On the sailing team,,12th,4
+Amir,Dalichaouch,Amir- VP. Of Communications He can't wait to expand his technological and mechanical knowledge.,leader,12th,4
+Gabby,Person,President of the team this yearcomma she loves all aspects of creating robots and looks forward to attending MIT in the fall.,leader,12th,4
+Louise,Xu,An aspiring engineer who wants to expand her knowledge of science.,leader,12th,4
+Juntai,Zheng,Treasurer of the team. Handles the moneycomma but is aware of the mo' problems.,leader,12th,4
+Kellan,Colburn,Kellan is an aspiring electrical engineer who is looking to gain some experience working in robotics.,,12th,4
+Thomas,Garcia,President of the sailing teamcomma who knows where his true priorities lie.,,12th,4
 Sam,Moses, Bio,,12th,4
-Caris,Wei,Bio,,12th,4
+Caris,Wei,Caris is in the middle of his second year on the robotics team and is planing to contribute as much as he can to the Vikings.,,12th,4
 Lauren,Hibbs,Bio,,11th,3
-Nguyen,Hoang,Bio,,11th,3
-Katie,Bonnett,Bio,,10th,2
-Daryl,Lyons,Bio,,10th,2
-David,Romero,Bio,,10th,2
+Nguyen,Hoang,Nguyen Hoang is a junior with a year of experience. He is dedicated to the building of electronics for robotics.,,11th,3
+Marié,Rowson,Marié Rowson is new to the team but willing to learn from the experience.,,11th,3
+Katie,Bonnett,She's looking forward to learning the ropes of robotics.,,10th,2
+Daryl,Lyons,Daryl Lyons has always been interested in science and engineering and is looking forward to contributing to the robotics team this year.,,10th,2
+David,Romero,David Romero is a very creative and enthusiastic young man who has a talent at coming up with ideas and designs for possible roots. He also looks forward to working with the robot hands on.,,10th,2
 Joshua,Alexander,Bio,,9th,1
-Max,Apodaca,Is in 9th grade and is on the sailing team. Currently is the Web Master and a rookie.,,9th,1
-Liam,Brinton,9th gradecomma On the sailing team,,9th,1
-Steven,Gazi,Bio,,9th,1
+Max,Apodaca,Max has been on an FLL (Fist Lego League) team and has wanted to pursue robotics further ever since. He is an avid programmer and web designer.,,9th,1
+Liam,Brinton,Has some experience with roboticscomma competed in FLL (First Lego League)for 3 years.,,9th,1
+Javier,Galvan,He does not have any robotics experience and is interested in learning how to make a robot.,,9th,1
+Steven,Gazi,He really is excited about the competitioncomma learning new thingscomma and having fun.,,9th,1
 Aden,Hibbs,Bio,,9th,1
-Dylan,Hickson Long,Bio,,9th,1
-Hannah,Hu,Bio,,9th,1
-Tanvir,Hussain,Bio,,9th,1
-Alex,Kritsuk,Bio,,9th,1
-Jake,Porath,Bio,,9th,1
+Dylan,Hickson Long,Dylan is interested in learning to control and program robotscomma specifically in vision with Labview.,,9th,1
+Hannah,Hu,She began programming and computer science in high schoolcomma and she is looking forward to participating in the creation of robots.,,9th,1
+Tanvir,Hussain,He's looking forward to building the robot and going to the competition.,,9th,1
+Alex,Kritsuk,He has interests and experience in science and is ambitious about working on the robot this year.,,9th,1
+Jake,Porath,He is looking forward to learning more about robots.,,9th,1
 Sage,Tellew,Bio,,9th,1
